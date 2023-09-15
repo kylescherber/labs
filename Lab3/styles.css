@@ -1,0 +1,53 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 50;
+    text-align: center;
+    font-size: 4rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: black;
+    color:forestgreen;
+    font-weight: 200;
+
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 3rem;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-right:35rem;
+    font-size: 2rem
+
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+nav{
+    background-color: black;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    word-spacing: 4rem;
+    text-align: center;
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+    margin-left: 30rem;
+}
+img{
+    margin-left: 30rem;
+}
+
+li{
+    font-size: 3rem;
+    margin-left: 30rem;
+}
