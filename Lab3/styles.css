@@ -7,6 +7,7 @@ h1{
     padding-right: 1rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    margin-left: 1rem;
     background-color: black;
     color:forestgreen;
     font-weight: 200;
@@ -17,11 +18,44 @@ h2{
     text-align: center;
     font-size: 3rem;
 }
-h3{
+h3.shop{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+h3.header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-right:35rem;
     font-size: 2rem
+}
+.drip{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+.scarytree{
+    margin-left: 8rem;
+    margin-right: auto;
+    width: 100%;
+    
+}
+#copyright {
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 200px;
+	text-align: left;
+	bottom: 0px;
+	width: 100%;
+    font-weight: 100;
+    color: white;
+    background-color: black;
+
 
 }
 a:link{
@@ -32,7 +66,6 @@ a:visited{
 }
 nav{
     background-color: black;
-    margin-bottom: 1rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
     word-spacing: 4rem;
@@ -43,8 +76,16 @@ p{
     font-size: 2rem;
     margin-left: 30rem;
 }
-img{
-    margin-left: 30rem;
+
+
+.shirts{
+    border: 1px solid hsl(120, 61%, 15%);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 li{
