@@ -1,0 +1,83 @@
+
+body{
+    background-color: #cc6633;
+}
+
+body>header{
+    background-color: #d3a253;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body>header>p{
+    position: absolute;
+    right:1.5rem;
+    text-align: right;
+    margin: 0;
+}
+
+body main section div{
+    background-color: #d3a253;
+    width: 60%;
+    max-width: 100%;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+}
+
+div>p{
+    font-weight: 200;
+    font-size: xx-large;
+}
+
+footer{
+    background-color: #d3a253;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+
+#story{
+    background-image: url(images/outsidetavern.jpg);
+    margin: 0;
+}
+
+#story p{
+    padding: 1rem;
+}
+
+#story img{
+    width: 30%;
+    max-width: 100%;
+    float: right;
+}
+
+#story div>h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#story div{
+    padding-bottom: 20rem;
+}
+
+#menu{
+    background-image: url(images/table.jpg);
+    font-size: 3rem;
+    text-align: left;
+}
+#menu h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#drinks{
+    background-image: url(images/bar.jpg);
+    font-size: 3rem;
+    text-align: center;
+}
