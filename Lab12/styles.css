@@ -41,6 +41,7 @@ form{
 
 input[type=text],[type=email],[type=date],[type=number],[type=color]{
     font-size: 1.25rem;
+    /*Add a space on each side of the minus sign*/
     width: calc(100% -1rem);
     border: 3px solid yellowgreen;
     padding: 0.5rem;
@@ -52,7 +53,7 @@ input[type=color]{
     height: 4rem;
     border-radius: 2rem;
 }
-
+/*Each type needs a input:focus in front of it so it the css happens on focus*/
 input:focus[type=text],[type=email],[type=date],[type=number],[type=color]{
     background-color: #000;
     color: #fff;
