@@ -6,11 +6,15 @@ header{
 header img{
     margin: 0;
     max-width: 10%;
-
+    display: flex;
 }
 body{
     margin: 0;
     background-image: url(images/leaves.jpg);
+}
+nav{
+    display: flex;
+    justify-content:end;
 }
 main div{
     margin: 0;
@@ -24,10 +28,12 @@ main div{
 main>div>h2{
     margin-left: 3rem;
     padding-top: 3rem;
+    font-family: 'Blackadder ITC', serif;
+    font-size: 4rem;
 }
 main>div>p{
     line-height: 25px;
-    font-size: larger;
+    font-size: 1.5rem;
     text-indent: 1rem;
     margin-left: 4rem;
     margin-right: 4rem;
@@ -50,4 +56,17 @@ footer h2{
     display: block;
     margin: auto;
     max-width: 75%;
+    border: black;
+    border-style: solid;
+    border-width: 1rem;
+}
+.art{
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.art img{
+    display: inline-block;
+    max-width: 33.5rem;
 }
