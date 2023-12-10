@@ -1,0 +1,33 @@
+header{
+    background-color: green;
+    color: aliceblue;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    max-width: 100%;
+    margin: 0px;
+    padding: 2rem;
+}
+
+header img{
+    max-width: 5%;
+}
+
+.bug{
+    display: flex;
+    background-color: yellowgreen;
+}
+.bug img{
+    justify-content: space-between;
+    max-width: 25%;
+    max-height: 25%;
+    margin: 1rem;
+}
+.bug p{
+    margin: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    max-width: 100%;
+    max-height: 75%;
+    background-color: greenyellow;
+}
