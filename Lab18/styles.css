@@ -14,20 +14,8 @@ header img{
 }
 
 .bug{
-    display: flex;
+    display: grid;
+    grid-template-columns: 70% 30%;
     background-color: yellowgreen;
 }
-.bug img{
-    justify-content: space-between;
-    max-width: 25%;
-    max-height: 25%;
-    margin: 1rem;
-}
-.bug p{
-    margin: 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    max-width: 100%;
-    max-height: 75%;
-    background-color: greenyellow;
-}
+
