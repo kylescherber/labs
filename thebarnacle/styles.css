@@ -14,8 +14,8 @@ header{
 }
 
 header>img{
-    width: 10rem;
-    max-width: 50%;
+    width: 25rem;
+    max-width: 100%;
 }
 
 nav{
@@ -32,9 +32,10 @@ nav a{
     background-color: rgb(0, 0, 0);
     color: white;
 }
-main h2{
-
+nav a:hover{
+    background-color: darkblue;
 }
+
 .container{
     padding: 20px;
 }
@@ -50,6 +51,7 @@ main h2{
 }
 .about>img{
     display: block;
+    max-width: 50%;
     margin: auto;
 }
 .images{
@@ -73,6 +75,21 @@ main h2{
     margin: auto;
 
 }
+
+.form{
+    background-color: rgb(0, 0, 0);
+    max-width: 20%;
+    max-height: 5rem;
+    margin: auto;
+    padding: 2rem 2rem 20rem 2rem;
+
+}
+
+#textbox{
+    height:200px;
+    font-size:14pt;
+}
+
 .text{
     display: inline;
     writing-mode: vertical-lr;
@@ -112,7 +129,30 @@ main h2{
     border: black solid;
 }
 
+.breaker{
+    text-align: center;
+    margin: 0;
+    display: inline;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
 .artist img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border: black solid;
+}
+
+.song{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 15%;
+    padding: 1rem;
+    margin: 10px;
+    border: black solid;
+}
+.song img{
     max-width: 100%;
     display: block;
     margin: auto;
@@ -129,5 +169,12 @@ footer{
 footer img{
     max-width: 3rem;
     margin: 1rem;
+}
+
+@media (max-width:981px){
+    .text{
+        writing-mode:horizontal-tb;
+    }
+
 }
 
