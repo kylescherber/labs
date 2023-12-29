@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color: coral;
+    overflow: hidden;
+}
+.square{
+    background-color: white;
+    height:5rem;
+    width:5rem;
+    position: absolute;
+    left:48%;
+    top:48%;
+    animation: rotate 2s ease-in-out infinite alternate;
+}
+
+@keyframes rotate{
+    from{
+        transform: scale(70%) rotate(0deg);    
+    }
+    to{
+        transform: scale(100%)rotate(360deg);
+
+    }
+}
